@@ -5,10 +5,10 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/israel-light.jpeg")
     img.setAttribute("alt", "de oclim escuro")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/israel.jpeg")
     img.setAttribute("alt", "nerd")
   }
 }
